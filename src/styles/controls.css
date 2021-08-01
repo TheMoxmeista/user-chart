@@ -1,0 +1,29 @@
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.controls > div {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.gender-controls > input {
+  display: none;
+}
+
+.gender-controls > label {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  background-color: #bf0e3b;
+}
+
+.gender-controls > label.active {
+  color: white;
+  background-color: #0ebf92;
+}

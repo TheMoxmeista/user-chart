@@ -1,0 +1,23 @@
+table {
+  margin: 0 auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+td:first-child {
+  border-left: 1px solid black;
+}
+
+td:last-child {
+  border-right: 1px solid black;
+}
