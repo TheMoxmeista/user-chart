@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Chart as ChartJs, registerables } from 'chart.js';
 
+import 'styles/chart.css';
+
 ChartJs.register(...registerables);
 
 const Chart = ({ monthlyDataset, cumulativeDataset, labels }) => {
@@ -42,9 +44,9 @@ const Chart = ({ monthlyDataset, cumulativeDataset, labels }) => {
   }, [monthlyDataset, cumulativeDataset])
 
   return (
-    <>
+    <div className='chart-container'>
       <canvas id='myChart' />
-    </>
+    </div>
 
   );
 };
