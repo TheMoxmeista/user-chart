@@ -16,8 +16,8 @@ const Table = ({data}) => {
           <tr key={i}>
             <td>{row.month}</td>
             <td>{row.numUsers}</td>
-            <td>{row.cost}</td>
-            <td>{row.cumCost}</td>
+            <td>${row.cost}</td>
+            <td>${row.cumCost}</td>
           </tr>
         ))}
       </tbody>
